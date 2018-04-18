@@ -1,10 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<title>Grid System</title>
+	<link rel="stylesheet" href="stylee.css">
 </head>
-<body>
-	
+<body style="background-image: url(img/back.jpg);">
+	<div class="container">
+		<header class="main-header grid">
+			<div class="main-header__item1">MAIN</div>
+			<div class="main-header__item2">ABOUT</div>
+			<div class="main-header__item3">CONTACTS</div>
+		</header>
+	</div>
+	<section>
+		<div class="container">
+			<div class="section-main grid">
+				<h1>ROMAN KARPILENKO</h1>
+			</div>
+		</div>
+	</section>
+	<secrion>
+		<div class="container">
+			<div class="section-tracks grid">
+				<div class="section-tracks__item1">
+					<p>lorem</p>
+				</div>
+				<div class="section-tracks__item2">
+					<p>lorem</p>
+				</div>
+				<div class="section-tracks__item3">
+					<p>lorem</p>
+				</div>
+				<div class="section-tracks__item4">
+					<p>lorem</p>
+				</div>
+			</div>
+		</div>
+	</secrion>
 </body>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </html>
